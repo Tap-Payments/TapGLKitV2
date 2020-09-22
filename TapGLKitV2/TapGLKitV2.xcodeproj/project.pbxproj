@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C95DF51C2C9605AD253D1C8F /* Pods_TapGLKitV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E167586E55215F188143E6C /* Pods_TapGLKitV2.framework */; };
+		E80485FC251A18F500D86C43 /* BaseGLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80485E3251A18F500D86C43 /* BaseGLView.swift */; };
+		E80485FD251A18F500D86C43 /* BaseShader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80485E4251A18F500D86C43 /* BaseShader.swift */; };
+		E80485FE251A18F500D86C43 /* GLUniformSetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80485E5251A18F500D86C43 /* GLUniformSetter.swift */; };
+		E80485FF251A18F500D86C43 /* ShaderSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80485E6251A18F500D86C43 /* ShaderSource.swift */; };
+		E8048600251A18F500D86C43 /* QuadGradientShader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80485E8251A18F500D86C43 /* QuadGradientShader.swift */; };
+		E8048601251A18F500D86C43 /* QuadGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80485E9251A18F500D86C43 /* QuadGradientView.swift */; };
+		E8048602251A18F500D86C43 /* RadialGradientShader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80485EB251A18F500D86C43 /* RadialGradientShader.swift */; };
+		E8048603251A18F500D86C43 /* RadialGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80485EC251A18F500D86C43 /* RadialGradientView.swift */; };
+		E8048604251A18F500D86C43 /* GradientDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80485EE251A18F500D86C43 /* GradientDirection.swift */; };
+		E8048605251A18F500D86C43 /* LinearGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80485EF251A18F500D86C43 /* LinearGradientView.swift */; };
+		E8048606251A18F500D86C43 /* LinearGradientShader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80485F0251A18F500D86C43 /* LinearGradientShader.swift */; };
+		E8048607251A18F500D86C43 /* TapActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80485F2251A18F500D86C43 /* TapActivityIndicatorView.swift */; };
+		E8048608251A18F500D86C43 /* TapActivityIndicatorShader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80485F3251A18F500D86C43 /* TapActivityIndicatorShader.swift */; };
+		E8048609251A18F500D86C43 /* TapActivityIndicatorAnimationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80485F4251A18F500D86C43 /* TapActivityIndicatorAnimationState.swift */; };
+		E804860A251A18F500D86C43 /* ArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80485F6251A18F500D86C43 /* ArrowView.swift */; };
+		E804860B251A18F500D86C43 /* ArrowDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80485F7251A18F500D86C43 /* ArrowDirection.swift */; };
+		E804860C251A18F500D86C43 /* ArrowShader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80485F8251A18F500D86C43 /* ArrowShader.swift */; };
+		E804860D251A18F500D86C43 /* AnimatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80485FA251A18F500D86C43 /* AnimatedView.swift */; };
+		E804860E251A18F500D86C43 /* AnimatedShader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80485FB251A18F500D86C43 /* AnimatedShader.swift */; };
+		E88A9FBE251A18A900F9FC85 /* TapGLKitV2.h in Headers */ = {isa = PBXBuildFile; fileRef = E88A9FBC251A18A900F9FC85 /* TapGLKitV2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D3041AC806AB4A6F9EC21D3 /* Pods-TapGLKitV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapGLKitV2.debug.xcconfig"; path = "Target Support Files/Pods-TapGLKitV2/Pods-TapGLKitV2.debug.xcconfig"; sourceTree = "<group>"; };
+		99E720856185B17CAE76CFA3 /* Pods-TapGLKitV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapGLKitV2.release.xcconfig"; path = "Target Support Files/Pods-TapGLKitV2/Pods-TapGLKitV2.release.xcconfig"; sourceTree = "<group>"; };
+		9E167586E55215F188143E6C /* Pods_TapGLKitV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapGLKitV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E80485E3251A18F500D86C43 /* BaseGLView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseGLView.swift; sourceTree = "<group>"; };
+		E80485E4251A18F500D86C43 /* BaseShader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseShader.swift; sourceTree = "<group>"; };
+		E80485E5251A18F500D86C43 /* GLUniformSetter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLUniformSetter.swift; sourceTree = "<group>"; };
+		E80485E6251A18F500D86C43 /* ShaderSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShaderSource.swift; sourceTree = "<group>"; };
+		E80485E8251A18F500D86C43 /* QuadGradientShader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadGradientShader.swift; sourceTree = "<group>"; };
+		E80485E9251A18F500D86C43 /* QuadGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadGradientView.swift; sourceTree = "<group>"; };
+		E80485EB251A18F500D86C43 /* RadialGradientShader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialGradientShader.swift; sourceTree = "<group>"; };
+		E80485EC251A18F500D86C43 /* RadialGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialGradientView.swift; sourceTree = "<group>"; };
+		E80485EE251A18F500D86C43 /* GradientDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientDirection.swift; sourceTree = "<group>"; };
+		E80485EF251A18F500D86C43 /* LinearGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearGradientView.swift; sourceTree = "<group>"; };
+		E80485F0251A18F500D86C43 /* LinearGradientShader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearGradientShader.swift; sourceTree = "<group>"; };
+		E80485F2251A18F500D86C43 /* TapActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapActivityIndicatorView.swift; sourceTree = "<group>"; };
+		E80485F3251A18F500D86C43 /* TapActivityIndicatorShader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapActivityIndicatorShader.swift; sourceTree = "<group>"; };
+		E80485F4251A18F500D86C43 /* TapActivityIndicatorAnimationState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapActivityIndicatorAnimationState.swift; sourceTree = "<group>"; };
+		E80485F6251A18F500D86C43 /* ArrowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrowView.swift; sourceTree = "<group>"; };
+		E80485F7251A18F500D86C43 /* ArrowDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrowDirection.swift; sourceTree = "<group>"; };
+		E80485F8251A18F500D86C43 /* ArrowShader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrowShader.swift; sourceTree = "<group>"; };
+		E80485FA251A18F500D86C43 /* AnimatedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedView.swift; sourceTree = "<group>"; };
+		E80485FB251A18F500D86C43 /* AnimatedShader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedShader.swift; sourceTree = "<group>"; };
+		E88A9FB9251A18A900F9FC85 /* TapGLKitV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapGLKitV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E88A9FBC251A18A900F9FC85 /* TapGLKitV2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapGLKitV2.h; sourceTree = "<group>"; };
+		E88A9FBD251A18A900F9FC85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E88A9FB6251A18A900F9FC85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95DF51C2C9605AD253D1C8F /* Pods_TapGLKitV2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F73EE8DD9E999D282BB02C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E167586E55215F188143E6C /* Pods_TapGLKitV2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77B72772EEB5C478D4D125FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D3041AC806AB4A6F9EC21D3 /* Pods-TapGLKitV2.debug.xcconfig */,
+				99E720856185B17CAE76CFA3 /* Pods-TapGLKitV2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E80485E1251A18F500D86C43 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E80485E2251A18F500D86C43 /* Core */,
+				E80485E7251A18F500D86C43 /* QuadGradientView */,
+				E80485EA251A18F500D86C43 /* RadialGradientView */,
+				E80485ED251A18F500D86C43 /* LinearGradientView */,
+				E80485F1251A18F500D86C43 /* TapActivityIndicatorView */,
+				E80485F5251A18F500D86C43 /* ArrowView */,
+				E80485F9251A18F500D86C43 /* AnimatedView */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E80485E2251A18F500D86C43 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E80485E3251A18F500D86C43 /* BaseGLView.swift */,
+				E80485E4251A18F500D86C43 /* BaseShader.swift */,
+				E80485E5251A18F500D86C43 /* GLUniformSetter.swift */,
+				E80485E6251A18F500D86C43 /* ShaderSource.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E80485E7251A18F500D86C43 /* QuadGradientView */ = {
+			isa = PBXGroup;
+			children = (
+				E80485E8251A18F500D86C43 /* QuadGradientShader.swift */,
+				E80485E9251A18F500D86C43 /* QuadGradientView.swift */,
+			);
+			path = QuadGradientView;
+			sourceTree = "<group>";
+		};
+		E80485EA251A18F500D86C43 /* RadialGradientView */ = {
+			isa = PBXGroup;
+			children = (
+				E80485EB251A18F500D86C43 /* RadialGradientShader.swift */,
+				E80485EC251A18F500D86C43 /* RadialGradientView.swift */,
+			);
+			path = RadialGradientView;
+			sourceTree = "<group>";
+		};
+		E80485ED251A18F500D86C43 /* LinearGradientView */ = {
+			isa = PBXGroup;
+			children = (
+				E80485EE251A18F500D86C43 /* GradientDirection.swift */,
+				E80485EF251A18F500D86C43 /* LinearGradientView.swift */,
+				E80485F0251A18F500D86C43 /* LinearGradientShader.swift */,
+			);
+			path = LinearGradientView;
+			sourceTree = "<group>";
+		};
+		E80485F1251A18F500D86C43 /* TapActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				E80485F2251A18F500D86C43 /* TapActivityIndicatorView.swift */,
+				E80485F3251A18F500D86C43 /* TapActivityIndicatorShader.swift */,
+				E80485F4251A18F500D86C43 /* TapActivityIndicatorAnimationState.swift */,
+			);
+			path = TapActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		E80485F5251A18F500D86C43 /* ArrowView */ = {
+			isa = PBXGroup;
+			children = (
+				E80485F6251A18F500D86C43 /* ArrowView.swift */,
+				E80485F7251A18F500D86C43 /* ArrowDirection.swift */,
+				E80485F8251A18F500D86C43 /* ArrowShader.swift */,
+			);
+			path = ArrowView;
+			sourceTree = "<group>";
+		};
+		E80485F9251A18F500D86C43 /* AnimatedView */ = {
+			isa = PBXGroup;
+			children = (
+				E80485FA251A18F500D86C43 /* AnimatedView.swift */,
+				E80485FB251A18F500D86C43 /* AnimatedShader.swift */,
+			);
+			path = AnimatedView;
+			sourceTree = "<group>";
+		};
+		E88A9FAF251A18A900F9FC85 = {
+			isa = PBXGroup;
+			children = (
+				E88A9FBB251A18A900F9FC85 /* TapGLKitV2 */,
+				E88A9FBA251A18A900F9FC85 /* Products */,
+				77B72772EEB5C478D4D125FB /* Pods */,
+				4F73EE8DD9E999D282BB02C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E88A9FBA251A18A900F9FC85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E88A9FB9251A18A900F9FC85 /* TapGLKitV2.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E88A9FBB251A18A900F9FC85 /* TapGLKitV2 */ = {
+			isa = PBXGroup;
+			children = (
+				E88A9FBC251A18A900F9FC85 /* TapGLKitV2.h */,
+				E88A9FBD251A18A900F9FC85 /* Info.plist */,
+				E80485E1251A18F500D86C43 /* Source */,
+			);
+			path = TapGLKitV2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E88A9FB4251A18A900F9FC85 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E88A9FBE251A18A900F9FC85 /* TapGLKitV2.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E88A9FB8251A18A900F9FC85 /* TapGLKitV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E88A9FC1251A18A900F9FC85 /* Build configuration list for PBXNativeTarget "TapGLKitV2" */;
+			buildPhases = (
+				695ECBA086C22EA53C3CF87D /* [CP] Check Pods Manifest.lock */,
+				E88A9FB4251A18A900F9FC85 /* Headers */,
+				E88A9FB5251A18A900F9FC85 /* Sources */,
+				E88A9FB6251A18A900F9FC85 /* Frameworks */,
+				E88A9FB7251A18A900F9FC85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapGLKitV2;
+			productName = TapGLKitV2;
+			productReference = E88A9FB9251A18A900F9FC85 /* TapGLKitV2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E88A9FB0251A18A900F9FC85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					E88A9FB8251A18A900F9FC85 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = E88A9FB3251A18A900F9FC85 /* Build configuration list for PBXProject "TapGLKitV2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E88A9FAF251A18A900F9FC85;
+			productRefGroup = E88A9FBA251A18A900F9FC85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E88A9FB8251A18A900F9FC85 /* TapGLKitV2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E88A9FB7251A18A900F9FC85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		695ECBA086C22EA53C3CF87D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapGLKitV2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E88A9FB5251A18A900F9FC85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8048604251A18F500D86C43 /* GradientDirection.swift in Sources */,
+				E804860C251A18F500D86C43 /* ArrowShader.swift in Sources */,
+				E80485FE251A18F500D86C43 /* GLUniformSetter.swift in Sources */,
+				E804860A251A18F500D86C43 /* ArrowView.swift in Sources */,
+				E8048603251A18F500D86C43 /* RadialGradientView.swift in Sources */,
+				E8048607251A18F500D86C43 /* TapActivityIndicatorView.swift in Sources */,
+				E8048606251A18F500D86C43 /* LinearGradientShader.swift in Sources */,
+				E804860D251A18F500D86C43 /* AnimatedView.swift in Sources */,
+				E8048601251A18F500D86C43 /* QuadGradientView.swift in Sources */,
+				E8048608251A18F500D86C43 /* TapActivityIndicatorShader.swift in Sources */,
+				E804860E251A18F500D86C43 /* AnimatedShader.swift in Sources */,
+				E80485FF251A18F500D86C43 /* ShaderSource.swift in Sources */,
+				E8048605251A18F500D86C43 /* LinearGradientView.swift in Sources */,
+				E80485FC251A18F500D86C43 /* BaseGLView.swift in Sources */,
+				E804860B251A18F500D86C43 /* ArrowDirection.swift in Sources */,
+				E80485FD251A18F500D86C43 /* BaseShader.swift in Sources */,
+				E8048609251A18F500D86C43 /* TapActivityIndicatorAnimationState.swift in Sources */,
+				E8048600251A18F500D86C43 /* QuadGradientShader.swift in Sources */,
+				E8048602251A18F500D86C43 /* RadialGradientShader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E88A9FBF251A18A900F9FC85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E88A9FC0251A18A900F9FC85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E88A9FC2251A18A900F9FC85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D3041AC806AB4A6F9EC21D3 /* Pods-TapGLKitV2.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G46S76PUH4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TapGLKitV2/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tap.TapGLKitV2;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E88A9FC3251A18A900F9FC85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99E720856185B17CAE76CFA3 /* Pods-TapGLKitV2.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G46S76PUH4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TapGLKitV2/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tap.TapGLKitV2;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E88A9FB3251A18A900F9FC85 /* Build configuration list for PBXProject "TapGLKitV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E88A9FBF251A18A900F9FC85 /* Debug */,
+				E88A9FC0251A18A900F9FC85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E88A9FC1251A18A900F9FC85 /* Build configuration list for PBXNativeTarget "TapGLKitV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E88A9FC2251A18A900F9FC85 /* Debug */,
+				E88A9FC3251A18A900F9FC85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E88A9FB0251A18A900F9FC85 /* Project object */;
+}
