@@ -8,7 +8,7 @@
 import CoreGraphics
 import class	GLKit.GLKView
 import func		QuartzCore.CABase.CACurrentMediaTime
-import func		TapAdditionsKitV2.tap_clamp
+import 	TapAdditionsKitV2
 
 /// Base class for animated GL views.
 public class AnimatedView: BaseGLView {
