@@ -5,6 +5,7 @@
 //  Copyright © 2019 Tap Payments. All rights reserved.
 //
 
+import Foundation
 import CoreGraphics
 import class	GLKit.GLKView
 import func		QuartzCore.CABase.CACurrentMediaTime

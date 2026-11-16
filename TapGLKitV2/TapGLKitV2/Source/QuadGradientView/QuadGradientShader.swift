@@ -5,6 +5,7 @@
 //  Copyright © 2019 Tap Payments. All rights reserved.
 //
 
+import Foundation
 import func		OpenGLES.ES2.gl.glGetUniformLocation
 import struct	OpenGLES.ES2.gl.GLfloat
 import struct	OpenGLES.ES2.gl.GLint

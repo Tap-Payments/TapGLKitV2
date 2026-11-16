@@ -5,6 +5,7 @@
 //  Copyright © 2019 Tap Payments. All rights reserved.
 //
 
+import Foundation
 import struct   CoreGraphics.CGGeometry.CGRect
 import class    GLKit.GLKView.GLKView
 import protocol GLKit.GLKView.GLKViewDelegate

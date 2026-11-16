@@ -5,6 +5,7 @@
 //  Copyright © 2019 Tap Payments. All rights reserved.
 //
 
+import Foundation
 /// Gradient direction.
 ///
 /// - topToBottom: Direction from top to bottom.
