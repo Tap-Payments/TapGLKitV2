@@ -5,6 +5,7 @@
 //  Copyright © 2019 Tap Payments. All rights reserved.
 //
 
+import Foundation
 import class	OpenGLES.EAGL.EAGLContext
 import func		OpenGLES.ES2.gl.glUniform1f
 import func		OpenGLES.ES2.gl.glUniform2f
